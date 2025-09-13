@@ -1,12 +1,1 @@
-version: '3'
-services:
-  server:
-    build: ./server
-    ports:
-      - "4000:4000"
-  client:
-    build: ./client
-    ports:
-      - "3000:3000"
-    stdin_open: true
-    tty: true
+
